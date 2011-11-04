@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/metafont/beginners
+# catalog-date 2009-10-09 14:08:41 +0200
+# catalog-license pd
+# catalog-version undef
 Name:		texlive-metafont-beginners
 Version:	20091009
 Release:	1
@@ -23,6 +29,7 @@ errors in other people's fonts.
 %files
 %doc %{_texmfdistdir}/doc/fonts/metafont-beginners/metafont-for-beginners.pdf
 %doc %{_texmfdistdir}/doc/fonts/metafont-beginners/metafont-for-beginners.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -33,3 +40,5 @@ errors in other people's fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
