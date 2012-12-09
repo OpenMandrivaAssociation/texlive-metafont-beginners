@@ -37,3 +37,17 @@ errors in other people's fonts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20091009-2
++ Revision: 753855
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20091009-1
++ Revision: 718994
+- texlive-metafont-beginners
+- texlive-metafont-beginners
+- texlive-metafont-beginners
+- texlive-metafont-beginners
+
