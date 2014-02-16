@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-metafont-beginners
 Version:	20120523
-Release:	5
+Release:	6
 Summary:	An introductory tutorial for Metafont
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/metafont/beginners
