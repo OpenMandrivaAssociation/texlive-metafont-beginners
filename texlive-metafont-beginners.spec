@@ -1,18 +1,12 @@
-# revision 29803
-# category Package
-# catalog-ctan /info/metafont/beginners
-# catalog-date 2012-05-23 16:10:32 +0200
-# catalog-license pd
-# catalog-version undef
 Name:		texlive-metafont-beginners
-Version:	20180303
-Release:	2
+Version:	29803
+Release:	1
 Summary:	An introductory tutorial for Metafont
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/metafont/beginners
 License:	PD
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/metafont-beginners.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/metafont-beginners.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/metafont-beginners.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/metafont-beginners.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -30,7 +24,7 @@ errors in other people's fonts.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
