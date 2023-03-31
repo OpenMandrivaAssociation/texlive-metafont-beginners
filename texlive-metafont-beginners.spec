@@ -1,6 +1,6 @@
 Name:		texlive-metafont-beginners
 Version:	29803
-Release:	1
+Release:	2
 Summary:	An introductory tutorial for Metafont
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/metafont/beginners
