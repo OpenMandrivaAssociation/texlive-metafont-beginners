@@ -3,7 +3,7 @@ Version:	29803
 Release:	2
 Summary:	An introductory tutorial for Metafont
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/metafont/beginners
+URL:		https://www.ctan.org/tex-archive/info/metafont/beginners
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/metafont-beginners.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/metafont-beginners.doc.r%{version}.tar.xz
